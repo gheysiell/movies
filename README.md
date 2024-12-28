@@ -18,7 +18,7 @@ The project follows the **Clean architecture with MVVM** architecture with a **f
 - **Folders**: 31
 - **Screens**: 2
 - **Packages**: 12
-- **Average lines per file**: 52
+- **Average lines per file**: 51
 
 ## Text Editor Settings
 
