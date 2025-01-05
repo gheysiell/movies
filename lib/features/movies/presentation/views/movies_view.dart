@@ -211,6 +211,7 @@ class MoviewViewState extends State<MoviesView> {
                           vertical: 15,
                           horizontal: 15,
                         ),
+                        physics: const AlwaysScrollableScrollPhysics(),
                         itemBuilder: (BuildContext context, int index) {
                           return index != (moviesViewModel.movies.length) // + controlHasNextPage - controlHasNextPage
                               ? Container(

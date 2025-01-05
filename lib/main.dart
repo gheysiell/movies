@@ -8,11 +8,11 @@ import 'package:provider/provider.dart';
 
 void main() async {
   await dotenv.load();
-  runApp(const MyApp());
+  runApp(const Movies());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class Movies extends StatelessWidget {
+  const Movies({super.key});
 
   @override
   Widget build(BuildContext context) {
